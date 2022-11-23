@@ -72,6 +72,18 @@ p{
 }
 #experience-box3{
     border-left: 8px solid greenyellow;
+    
+}
+#experience-box1:hover{
+    background-color: black;
+    color: white;
+}
+#experience-box2:hover{
+       background-color: orchid;
+    color: white;
+}
+#experience-box3:hover{
+    background-color: #CBDCF7;
 }
 footer{
     margin-top: 10px;
