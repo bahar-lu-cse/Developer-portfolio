@@ -1,31 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Poppins', sans-serif;
+    background: rgb(220, 220, 220);
+}
+.body-beckground{
+    background-color: rgb(255, 255, 255);
+    width: 1170px;
+     margin: 0 auto;
 }
 h1{
-    font-size: 50px;
+    font-size: 20px;
+    margin: 10px 0;
 }
 h2{
     color: orange;
+    margin: 10px 0;
 }
-section{
+p{
+    margin: 10px 0;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+   
+}
+.text-margin{
+   margin: 10px 0 0 10px;
+}
+
+.flexiable-container{
     display: flex;
 }
 .half-width{
-    width: 50%;
-    padding-left: 5%;
-    padding-top: 2%;
-    padding-right: 5%;
+    width: 560px;
+    padding: 10px;
+    float: left;
+    margin: 0 auto;
 }
-.half-width img{
+.half-width img {
     width: 50%;
-    padding: 20%;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
 }
 .myself-button{
     text-decoration: none;
     background-image: linear-gradient(red, yellow, green);
     padding: 5px 40px;
     border-radius: 10px;
-    color: white;
-    
+    color: white;  
    
+}
+.experience-item{
+    box-shadow: 5px 5px  8px gray;
+    width: 310px;
+    margin: 20px auto;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    
+}
+#experience-box1{
+    border-left: 8px solid blue;
+}
+#experience-box2{
+    border-left: 8px solid tomato;
+}
+#experience-box3{
+    border-left: 8px solid greenyellow;
 }
