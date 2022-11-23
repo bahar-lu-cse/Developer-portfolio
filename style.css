@@ -73,3 +73,15 @@ p{
 #experience-box3{
     border-left: 8px solid greenyellow;
 }
+footer{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    display: block;
+    background-color: #84ADEA;
+}
+footer p {
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    
+}
